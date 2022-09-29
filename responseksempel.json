@@ -1,0 +1,424 @@
+{
+  "data": [
+    {
+      "type": "hotel-offers",
+      "hotel": {
+        "type": "hotel",
+        "hotelId": "HSORYABR",
+        "chainCode": "HS",
+        "dupeId": "700071341",
+        "name": "MILLESIME",
+        "cityCode": "ORY",
+        "latitude": 48.8551,
+        "longitude": 2.33502,
+        "hotelDistance": {
+          "distance": 0.7,
+          "distanceUnit": "KM"
+        }
+      },
+      "available": true,
+      "offers": [
+        {
+          "id": "722DCF695746AC25D95CCA9183C5E827FCE72B34A1AD44E4F41087E784937AA6",
+          "rateCode": "PRO",
+          "rateFamilyEstimated": {
+            "code": "PRO",
+            "type": "P"
+          },
+          "commission": {
+            "percentage": "4.00"
+          },
+          "boardType": "ROOM_ONLY",
+          "room": {
+            "type": "ROH",
+            "typeEstimated": {
+              "category": "STANDARD_ROOM"
+            },
+            "description": {
+              "lang": "EN",
+              "text": "Hot Deal\nStandard room A standard room consists of a room with shower-toilet or bathtub-toilet."
+            }
+          },
+          "guests": {
+            "adults": 2
+          },
+          "price": {
+            "currency": "EUR",
+            "total": "577.00",
+            "taxes": [
+              {
+                "code": "VALUE_ADDED_TAX",
+                "percentage": 10,
+                "included": true
+              },
+              {
+                "code": "TOURISM_TAX",
+                "pricingFrequency": "PER_NIGHT",
+                "pricingMode": "PER_OCCUPANT",
+                "amount": "253.00",
+                "included": true
+              }
+            ],
+            "variations": {
+              "average": {
+                "total": "288.50"
+              },
+              "changes": [
+                {
+                  "startDate": "2020-10-01",
+                  "endDate": "2020-10-02",
+                  "total": "284.00"
+                },
+                {
+                  "startDate": "2020-10-02",
+                  "endDate": "2020-10-03",
+                  "total": "293.00"
+                }
+              ]
+            }
+          },
+          "policies": {
+            "deposit": {
+              "amount": "577.00",
+              "acceptedPayments": {
+                "creditCards": [
+                  "VI",
+                  "MC",
+                  "CA",
+                  "AX"
+                ],
+                "methods": [
+                  "CREDIT_CARD"
+                ]
+              }
+            },
+            "paymentType": "deposit",
+            "cancellation": {
+              "description": {
+                "text": "The cancellation policy only applies for bookings with deposit. "
+              },
+              "amount": "577.00",
+              "deadline": "2020-01-04T08:42:00+01:00"
+            }
+          }
+        },
+        {
+          "id": "788538B6D6CFC6E8FDBE1229970714BC272C8D5CE646EC63655EEABEF35EFAEC",
+          "rateCode": "RAC",
+          "commission": {
+            "percentage": "4.00"
+          },
+          "boardType": "ROOM_ONLY",
+          "room": {
+            "type": "ROH",
+            "typeEstimated": {
+              "category": "STANDARD_ROOM"
+            },
+            "description": {
+              "lang": "EN",
+              "text": "Event-Rate\nStandard room A standard room consists of a room with shower-toilet or bathtub-toilet."
+            }
+          },
+          "guests": {
+            "adults": 2
+          },
+          "price": {
+            "currency": "EUR",
+            "total": "660.00",
+            "taxes": [
+              {
+                "code": "VALUE_ADDED_TAX",
+                "percentage": 10,
+                "included": true
+              },
+              {
+                "code": "TOURISM_TAX",
+                "pricingFrequency": "PER_NIGHT",
+                "pricingMode": "PER_OCCUPANT",
+                "amount": "253.00",
+                "included": true
+              }
+            ],
+            "variations": {
+              "average": {
+                "total": "330.00"
+              },
+              "changes": [
+                {
+                  "startDate": "2020-10-01",
+                  "endDate": "2020-10-02",
+                  "total": "325.00"
+                },
+                {
+                  "startDate": "2020-10-02",
+                  "endDate": "2020-10-03",
+                  "total": "335.00"
+                }
+              ]
+            }
+          },
+          "policies": {
+            "guarantee": {
+              "acceptedPayments": {
+                "creditCards": [
+                  "VI",
+                  "MC",
+                  "CA",
+                  "AX"
+                ],
+                "methods": [
+                  "CREDIT_CARD"
+                ]
+              }
+            },
+            "paymentType": "guarantee",
+            "cancellation": {
+              "numberOfNights": 2,
+              "type": "NIGHTS",
+              "deadline": "2020-09-28T22:59:00+01:00"
+            }
+          }
+        },
+        {
+          "id": "4220A054D23F7AC92B6DFBBB09483964A9ED95883E03B31B972F2F87921B30B0",
+          "rateCode": "RAC",
+          "commission": {
+            "percentage": "4.00"
+          },
+          "boardType": "ROOM_ONLY",
+          "room": {
+            "type": "ROH",
+            "typeEstimated": {
+              "category": "SUPERIOR_ROOM"
+            },
+            "description": {
+              "lang": "EN",
+              "text": "Event-Rate - Superior room\nSuperior room A superior room is larger and more comfortable than a standard room. It contains a shower-toilet or bathtub-toilet."
+            }
+          },
+          "guests": {
+            "adults": 2
+          },
+          "price": {
+            "currency": "EUR",
+            "total": "730.00",
+            "taxes": [
+              {
+                "code": "VALUE_ADDED_TAX",
+                "percentage": 10,
+                "included": true
+              },
+              {
+                "code": "TOURISM_TAX",
+                "pricingFrequency": "PER_NIGHT",
+                "pricingMode": "PER_OCCUPANT",
+                "amount": "253.00",
+                "included": true
+              }
+            ],
+            "variations": {
+              "average": {
+                "total": "365.00"
+              },
+              "changes": [
+                {
+                  "startDate": "2020-10-01",
+                  "endDate": "2020-10-02",
+                  "total": "360.00"
+                },
+                {
+                  "startDate": "2020-10-02",
+                  "endDate": "2020-10-03",
+                  "total": "370.00"
+                }
+              ]
+            }
+          },
+          "policies": {
+            "guarantee": {
+              "acceptedPayments": {
+                "creditCards": [
+                  "VI",
+                  "MC",
+                  "CA",
+                  "AX"
+                ],
+                "methods": [
+                  "CREDIT_CARD"
+                ]
+              }
+            },
+            "paymentType": "guarantee",
+            "cancellation": {
+              "numberOfNights": 2,
+              "type": "NIGHTS",
+              "deadline": "2020-09-28T22:59:00+01:00"
+            }
+          }
+        }
+      ],
+      "self": "https://test.api.amadeus.com/v2/shopping/hotel-offers/by-hotel?hotelId=HSORYABR&adults=2&checkInDate=2020-10-01&checkOutDate=2020-10-03&paymentPolicy=NONE&roomQuantity=1&view=NONE"
+    },
+    {
+      "type": "hotel-offers",
+      "hotel": {
+        "type": "hotel",
+        "hotelId": "HSPARCCF",
+        "chainCode": "HS",
+        "brandCode": "DH",
+        "dupeId": "700136597",
+        "name": "SAINT HONORÉ HOTEL",
+        "cityCode": "PAR",
+        "latitude": 48.8612,
+        "longitude": 2.34367,
+        "hotelDistance": {
+          "distance": 0.8,
+          "distanceUnit": "KM"
+        }
+      },
+      "available": true,
+      "offers": [
+        {
+          "id": "C754B31CEEFA0A86166D5A785A18671AEF2CA8283EFB66F165D59C48D6A564C4",
+          "rateCode": "RAC",
+          "commission": {
+            "percentage": "4.00"
+          },
+          "boardType": "ROOM_ONLY",
+          "room": {
+            "type": "ROH",
+            "typeEstimated": {
+              "category": "STANDARD_ROOM"
+            },
+            "description": {
+              "lang": "EN",
+              "text": "TradeFair-Rate\nStandard room A standard room consists of a room with shower-toilet or bathtub-toilet."
+            }
+          },
+          "guests": {
+            "adults": 2
+          },
+          "price": {
+            "currency": "EUR",
+            "total": "458.00",
+            "taxes": [
+              {
+                "code": "TOURISM_TAX",
+                "pricingFrequency": "PER_NIGHT",
+                "pricingMode": "PER_OCCUPANT",
+                "amount": "1.00",
+                "included": true
+              }
+            ],
+            "variations": {
+              "average": {
+                "total": "229.00"
+              },
+              "changes": [
+                {
+                  "startDate": "2020-10-01",
+                  "endDate": "2020-10-03",
+                  "total": "229.00"
+                }
+              ]
+            }
+          },
+          "policies": {
+            "guarantee": {
+              "acceptedPayments": {
+                "creditCards": [
+                  "VI",
+                  "MC",
+                  "CA",
+                  "AX"
+                ],
+                "methods": [
+                  "CREDIT_CARD"
+                ]
+              }
+            },
+            "paymentType": "guarantee",
+            "cancellation": {
+              "numberOfNights": 2,
+              "type": "NIGHTS",
+              "deadline": "2020-09-28T22:59:00+01:00"
+            }
+          }
+        },
+        {
+          "id": "3090ADE0A5E90FD276F979BC97F21D675DA7A337E36CCBADFD514852146BB58F",
+          "rateCode": "RAC",
+          "commission": {
+            "percentage": "4.00"
+          },
+          "boardType": "ROOM_ONLY",
+          "room": {
+            "type": "ROH",
+            "typeEstimated": {
+              "category": "SUPERIOR_ROOM"
+            },
+            "description": {
+              "lang": "EN",
+              "text": "TradeFair-Rate - Superior room\nSuperior room A superior room is larger and more comfortable than a standard room. It contains a shower-toilet or bathtub-toilet."
+            }
+          },
+          "guests": {
+            "adults": 2
+          },
+          "price": {
+            "currency": "EUR",
+            "total": "478.00",
+            "taxes": [
+              {
+                "code": "TOURISM_TAX",
+                "pricingFrequency": "PER_NIGHT",
+                "pricingMode": "PER_OCCUPANT",
+                "amount": "1.00",
+                "included": true
+              }
+            ],
+            "variations": {
+              "average": {
+                "total": "239.00"
+              },
+              "changes": [
+                {
+                  "startDate": "2020-10-01",
+                  "endDate": "2020-10-03",
+                  "total": "239.00"
+                }
+              ]
+            }
+          },
+          "policies": {
+            "guarantee": {
+              "acceptedPayments": {
+                "creditCards": [
+                  "VI",
+                  "MC",
+                  "CA",
+                  "AX"
+                ],
+                "methods": [
+                  "CREDIT_CARD"
+                ]
+              }
+            },
+            "paymentType": "guarantee",
+            "cancellation": {
+              "numberOfNights": 2,
+              "type": "NIGHTS",
+              "deadline": "2020-09-28T22:59:00+01:00"
+            }
+          }
+        }
+      ],
+      "self": "https://test.api.amadeus.com/v2/shopping/hotel-offers/by-hotel?hotelId=HSPARCCF&adults=2&checkInDate=2020-10-01&checkOutDate=2020-10-03&paymentPolicy=NONE&roomQuantity=1&view=NONE"
+    }
+  ],
+  "meta": {
+    "links": {
+      "next": "https://test.api.amadeus.com/v2/shopping/hotel-offers?adults=2&bestRateOnly=false&checkInDate=2020-10-01&checkOutDate=2020-10-03&cityCode=PAR&includeClosed=false&page[offset]=J2EFXFETIWSN_200"
+    }
+  }
+}
